@@ -35,7 +35,7 @@ module Project
 
     get '/' do
       @result = 'error'
-      @resp = "UNDEFINED ROUTE: API available at ''/api/<faker-class-name>/<faker-class-method'. This API does not support method parameters curretly."
+      @resp = "API available at '/api/<faker-class-name>/<faker-class-method'. This API does not support method parameters curretly."
       jbuilder :faker
     end
 
