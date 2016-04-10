@@ -14,17 +14,17 @@ http://rubyfaker.herokuapp.com/api/name/name
 
 > The response consists of two variables: `result` and `data` as shown below:
 
-``` json
+``` javascript
 {
 result: "success",
 data: "Dell Hilpert MD"
 }
 ```
 
-```json
+```javascript
 {
 result: "error",
-data: "UNDEFINED ROUTE: API available at ''/api/<faker-class-name>/<faker-class-method'. This API does not support method parameters curretly."
+data: "API available at '/api/<faker-class-name>/<faker-class-method'. This API does not support method parameters currently."
 }
 ```
 
